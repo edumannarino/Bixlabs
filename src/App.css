@@ -1,0 +1,35 @@
+.App {
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 700px 700px;
+  justify-content: center;
+}
+
+.box {
+  border-style: solid;
+  margin: 5px; 
+  padding: 5px;
+  border-width: 1px;
+  text-align: center;
+}
+
+.big-box {
+  border-width: 4px;
+}
+
+.medium-box {
+  border-width: 3px;
+}
+
+.bg-items {
+  background-color: rgb(224, 224, 224);
+}
+
+.bg-general {
+  background-color: rgb(192, 224, 224);
+}
+
