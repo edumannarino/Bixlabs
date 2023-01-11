@@ -1,3 +1,8 @@
+export interface IOwner {
+  address: string,
+  nickname?: string
+}
+
 export interface ITransaction {
   blockNumber: string
   timeStamp: string
