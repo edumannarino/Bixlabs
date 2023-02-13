@@ -14,6 +14,10 @@ export const getTransactions = async (account: string): Promise<ITransaction[] |
     )
 
     const data = await response.json() 
+    if (typeof data.result === "string") {
+      window.alert(data.result)
+      return []
+    }    
     return data.result
   } catch (error: any) {
     window.alert(error.message)
